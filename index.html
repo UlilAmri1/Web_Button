@@ -19,6 +19,9 @@
         $('#text').text('click lagi');
         $('#change').click(() => {
           $('#text').text('hiiii');
+          $('#change').click(() => {
+            $('#text').load('main.html');
+          });
         });
       });
     </script>
