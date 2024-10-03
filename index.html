@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="file">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +10,7 @@
   <body>
     <main class="container">
       <h1 id="text">Hello world</h1>
-      <button id="change">Click On Me</button>
+      <div class="button"><button id="change">Click On Me</button></div>
     </main>
 
     <!-- j -->
@@ -18,7 +18,7 @@
       $('#change').click(() => {
         $('#text').text('click lagi');
         $('#change').click(() => {
-          $('#text').text('hiiii');
+          $('#file').load('main.html');
         });
       });
     </script>
