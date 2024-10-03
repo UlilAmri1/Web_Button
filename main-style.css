@@ -5,7 +5,7 @@
 }
 body {
   width: 100vw;
-  background-color: #eeeede;
+  background-color: #fffff5;
 }
 
 .navbar-container {
@@ -18,7 +18,7 @@ body {
   padding: 20px;
   box-shadow: 2px 2px 2px rgb(226, 226, 226);
   /* border-bottom: 1px solid #ededed; */
-  background-color: #eeeede;
+  background-color: #fffff5;
 }
 
 .navbar-items {
@@ -43,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eeeede;
+  background-color: #fffff5;
 }
 
 .home-content {
@@ -76,7 +76,7 @@ body {
   width: 75%;
   border-radius: 25px;
   box-shadow: 2px 2px 20px rgb(231, 235, 240);
-  background-color: #eeeede;
+  background-color: #fffff5;
 }
 
 .about-content {
@@ -93,5 +93,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eeeede;
+  background-color: #fffff5;
 }
